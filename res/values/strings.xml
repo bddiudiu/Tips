@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="c1">请选择-0%</string>
+	<string name="c2">美国-15%</string>
+	<string name="c3">非洲-10%</string>
+	<string name="c4">中国-0%</string>
+	<string name="c5">奥地利-8%</string>
+	<string name="c6">澳洲-0%</string>
+	<string name="c7">爱尔兰-8%</string>
+	<string name="c8">葡萄牙-8%</string>
+	<string name="c9">北非-15%</string>
+	<string name="c10">德国-8%</string>
+	<string name="c11">法国-15%</string>
+	<string name="c12">荷兰-8%</string>
+	<string name="c13">加拿大-15%</string>
+	<string name="c14">马来西亚-0%</string>
+	<string name="c15">墨西哥-8%</string>
+	<string name="c16">日本-0%</string>
+	<string name="c17">泰国-8%</string>
+	<string name="c18">土耳其-8%</string>
+	<string name="c19">西班牙-8%</string>
+	<string name="c20">新加坡-0%</string>
+	<string name="c21">意大利-8%</string>
+	<string name="c22">英国-15%</string>
+	<string name="c23">中东-15%</string>
+	
+	
+    <string name="app_name">小费助手</string>
+    <string name="defined">自定义</string>
+    <string name="totle">总价</string>
+    <string name="people">人数</string>
+    <string name="each">人均</string>
+    <string name="bills">账单</string>
+    <string name="tips">小费</string>
+    <string name="addtips">小费(%)</string>
+    <string name="add">自定义</string>
+    <string name="btncalc">计算</string>
+    <string name="btnint">取整</string>
+    <string name="btnquit">退出</string>
+    <string name="btnback">返回</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_quit">关闭</string>
+    <string name="aboout_title">关于 Tips Calc</string>
+    <string name="about_message">Android Tips Calc\n作者: Adam.Diu \n特别感谢: 月月 若寒\n\n如果您有好的建议请联系  bddiudiu[at]gmail.com</string>
+    <string name="input_error">出错了哦 请输入正确的数字</string>
+    <string name="ok_label">确定</string>
+    <string name="homepage_label">首页</string>
+    <string name="homepage_uri">http://blog.sina.com.cn/bddiudiu</string>
+    <string name="help_title">帮助</string>
+    <string name="help_message">三步帮您快速计算AA制账单以及小费金额 </string>
+    <string name="help_message1">   1.输入账单金额 \n   2.在小费比率的弹出窗口中,按地区进行选择(无小费，可跳过此步或选择0%)\n   3.输入总人数(默认值为"1")</string>
+	<string name="help_message2">   点击"计算"以获得账单总金额以及人均金额(均含小费)\n   点击"取整"以获得整数金额(向上取整)</string>
+</resources>

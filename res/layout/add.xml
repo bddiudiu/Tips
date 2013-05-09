@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:padding="10sp" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+	android:background="@drawable/bg"
+	>
+<TextView 
+	android:id="@+id/defined" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/defined" 
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/bills2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/bills" 
+	android:layout_below="@+id/defined" 
+	android:textColor="#000000"
+	/>
+<EditText 
+	android:id="@+id/billspay2"
+	android:numeric="decimal"
+	android:layout_width="fill_parent" 
+	android:layout_height="40sp" 
+	android:textSize="20sp" 
+	android:text=""
+	android:layout_below="@+id/bills2" 
+	android:gravity="right"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/tips2" 
+	android:layout_width="100sp" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/addtips" 
+	android:layout_below="@+id/billspay2"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/tipspay2" 
+	android:layout_width="100sp" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="0.00"
+	android:layout_below="@+id/billspay2"
+	android:layout_alignParentRight="true"
+	android:gravity="right"
+	android:textColor="#000000"
+	/>
+<EditText 
+	android:id="@+id/addtips" 
+	android:layout_width="fill_parent" 
+	android:layout_height="40sp"
+	android:textColor="#000000"
+	android:layout_below="@+id/tipspay2"
+	android:text="0"
+	android:numeric="decimal"
+	android:gravity="right"
+	/>
+<TextView 
+	android:id="@+id/people2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/people"
+	android:layout_below="@+id/addtips"
+	android:textColor="#000000"
+	/>
+<EditText 
+	android:id="@+id/peoplenum2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="40sp"
+	android:textSize="20sp"
+	android:numeric="decimal"
+	android:gravity="right"
+	android:layout_below="@+id/people2"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/totle2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/totle" 
+	android:layout_below="@+id/peoplenum2"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/totlepay2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="0.00" 
+	android:layout_below="@+id/peoplenum2"
+	android:gravity="right"
+	android:layout_alignParentRight="true"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/each2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="@string/each" 
+	android:layout_below="@+id/totlepay2"
+	android:textColor="#000000"
+	/>
+<TextView 
+	android:id="@+id/eachpay2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp"
+	android:text="0.00" 
+	android:layout_below="@+id/totlepay2"
+	android:gravity="right"
+	android:layout_alignParentRight="true"
+	android:textColor="#000000"
+	/>
+<Button 
+	android:id="@+id/btnInt2" 
+	android:layout_width="75sp" 
+	android:layout_height="wrap_content"
+	android:text="@string/btnint" 
+	android:layout_below="@+id/eachpay2"
+	android:layout_toLeftOf="@+id/btnOk2"
+	android:layout_marginTop="20sp"
+	android:textColor="#000000"
+	/>
+<Button 
+	android:id="@+id/btnOk2" 
+	android:layout_width="75sp" 
+	android:layout_height="wrap_content"
+	android:text="@string/btncalc" 
+	android:layout_below="@+id/eachpay2"
+	android:layout_toLeftOf="@+id/btnQuit2"
+	android:layout_marginLeft="15sp"
+	android:layout_marginTop="20sp"
+	android:textColor="#000000"
+	/>
+<Button 
+	android:id="@+id/btnQuit2" 
+	android:layout_width="75sp" 
+	android:layout_height="wrap_content"
+	android:text="@string/btnback" 
+	android:layout_below="@+id/eachpay2"
+	android:layout_alignParentRight="true"
+	android:layout_marginLeft="15sp"
+	android:layout_marginTop="20sp"
+	android:textColor="#000000"
+	/>
+</RelativeLayout>
+
+
